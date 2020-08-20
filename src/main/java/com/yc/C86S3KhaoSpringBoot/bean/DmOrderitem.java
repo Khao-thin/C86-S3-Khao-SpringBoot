@@ -1,4 +1,4 @@
-package com.yc.damai.bean;
+package com.yc.C86S3KhaoSpringBoot.bean;
 
 public class DmOrderitem {
     private Integer id;

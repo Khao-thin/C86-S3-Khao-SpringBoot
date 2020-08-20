@@ -1,6 +1,7 @@
 package com.yc.C86S3KhaoSpringBoot.biz;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.annotation.Resource;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -8,8 +9,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class MailService {
-	@Autowired
-	private JavaMailSender mailSender;
+	//@Resource
+	//private JavaMailSender mailSender;
 	
 	//从spring的配置文件中获取一个配置
 	@Value("${mail.fromMail.addr}")
@@ -21,6 +22,6 @@ public class MailService {
 		message.setTo(to);
 		message.setSubject(subject);
 		message.setText(content);
-		mailSender.send(message);
+		//mailSender.send(message);
 	}
 }

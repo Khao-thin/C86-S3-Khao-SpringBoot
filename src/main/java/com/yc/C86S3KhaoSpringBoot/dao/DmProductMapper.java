@@ -1,4 +1,4 @@
-package com.yc.damai.dao;
+package com.yc.C86S3KhaoSpringBoot.dao;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.ResultMap;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 
-import com.yc.damai.bean.DmProduct;
+import com.yc.C86S3KhaoSpringBoot.bean.DmProduct;
 
 public interface DmProductMapper {
 

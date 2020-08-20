@@ -1,4 +1,4 @@
-package com.yc.damai.action;
+package com.yc.C86S3KhaoSpringBoot.action;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,8 +8,8 @@ import javax.annotation.Resource;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.yc.damai.bean.DmProduct;
-import com.yc.damai.dao.DmProductMapper;
+import com.yc.C86S3KhaoSpringBoot.bean.DmProduct;
+import com.yc.C86S3KhaoSpringBoot.dao.DmProductMapper;
 
 @RestController
 @RequestMapping("/user")
