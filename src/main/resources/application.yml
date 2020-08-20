@@ -1,0 +1,34 @@
+#yml文件不能使用制表符空格tab，只能使用普通空格
+server:
+ port: 80
+
+spring:
+ datasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1/c86-s2-khao-damaishop
+  username: root
+  password: a
+  
+# 邮件发送Yml配置规则：如果某个阶段有重复配置情况，必需要合并
+  mail:
+   #邮箱服务器地址
+   host: smtp.qq.com
+   #用户名
+   username: 2316377605@qq.com
+   #密码
+   password: qrwchidxfflfebfb
+   default-encoding: UTF-8
+ 
+#日志配置
+logging: 
+  level:
+    com:
+      yc:
+        C86S3KhaoSpringBoot: 
+          dao: debug
+          web: warn
+
+#以谁来发送邮件==>用户自定义属性
+mail:
+  fromMail:
+    addr: 2316377605@qq.com  
