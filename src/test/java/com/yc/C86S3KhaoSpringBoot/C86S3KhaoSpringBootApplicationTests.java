@@ -24,7 +24,7 @@ class C86S3KhaoSpringBootApplicationTests {
 	
 	@Test
 	void testMail() {
-		ms.sendSimpleMail("2528088211@qq.com", "验证码", "4321");
+		ms.sendSimpleMail("2528088211@qq.com", "验证码", "我日你大坝");
 	}
 
 }
